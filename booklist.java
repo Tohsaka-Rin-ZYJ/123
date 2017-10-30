@@ -7,7 +7,7 @@ using namespace std;
 
 
 class Book{    //定义类
-	public;
+	public：
 	char name[80];
 	char auther[80];
 	int num;
