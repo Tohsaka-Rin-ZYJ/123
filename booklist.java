@@ -1,13 +1,13 @@
 #include<iostream>
-#include<string>
+#include<string.h>
 #include<fstream>
 #include<strstream>
 #include<sstream>
 using namespace std;
 
 
-class Book{    //定义类
-	public：
+class Book{    //定义类;
+	public:
 	char name[80];
 	char auther[80];
 	int num;
@@ -83,7 +83,7 @@ void search(){
 	cin.get(cn);
 	cin.get(cn);
 	if(cn=='\n'){
-		menu():
+		menu();
 	} 
 }
 
@@ -136,10 +136,10 @@ void menu()
 	cin>>choice;
 	choice=tolower(choice);
 	switch(choice){
-		case '1'
+		case '1':
 		    search(); 
-		    bresk;
-		case '2'
+		    break;
+		case '2':
 		    borrow();
 		    break;
 	}    
